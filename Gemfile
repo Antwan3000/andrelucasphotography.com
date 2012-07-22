@@ -23,3 +23,4 @@ gem "slim", "~> 1.0"
 gem "slim-rails", "~> 1.0.3", :group => :development
 gem "capistrano", :group => :development
 gem "rvm-capistrano", :group => :development
+gem 'kaminari'
