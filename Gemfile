@@ -8,6 +8,7 @@ end
 gem 'jquery-rails'
 gem "cucumber-rails", ">= 1.3.0", :group => :test, :require => false
 gem "capybara", ">= 1.1.2", :group => :test
+gem "capybara-webkit", :group => :test
 gem "database_cleaner", ">= 0.8.0", :group => :test
 gem "launchy", ">= 2.1.0", :group => :test
 gem "therubyracer", :group => :assets, :platform => :ruby
@@ -20,3 +21,5 @@ gem "factory_girl_rails", ">= 3.5.0", :group => [:development, :test]
 gem "email_spec", ">= 1.2.1", :group => :test
 gem "slim", "~> 1.0"
 gem "slim-rails", "~> 1.0.3", :group => :development
+gem "capistrano", :group => :development
+gem "rvm-capistrano", :group => :development
