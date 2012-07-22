@@ -1,10 +1,10 @@
 Andrelucas::Application.routes.draw do
-  get "static/index"
+  get "static_pages/index"
 
-  get "static/about"
+  get "static_pages/about"
 
-  get "static/services"
+  get "static_pages/services"
 
-  get "static/contact"
+  get "static_pages/contact"
 
 end
