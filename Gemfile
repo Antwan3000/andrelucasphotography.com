@@ -22,5 +22,7 @@ gem "email_spec", ">= 1.2.1", :group => :test
 gem "slim", "~> 1.0"
 gem "slim-rails", "~> 1.0.3", :group => :development
 gem "capistrano", :group => :development
+gem "capistrano-ext", :group => :development
+gem "capistrano_colors", :group => :development
 gem "rvm-capistrano", :group => :development
 gem 'kaminari'
