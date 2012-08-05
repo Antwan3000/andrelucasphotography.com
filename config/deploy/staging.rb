@@ -28,6 +28,7 @@ ssh_options[:keys] = %w(/home/student/.ssh/authorized_keys)
 # if you're still using the script/reapear helper you will need
 # these http://github.com/rails/irs_process_scripts
 namespace :deploy do
+  task :migrate do ; end
   task :start do ; end
   task :stop do ; end
   task :restart, :roles => :app, :except => { :no_release => true } do

@@ -25,6 +25,7 @@ ssh_options[:keys] = %w(/home/puma/.ssh/authorized_keys)
 #    Passenger
 #############################################################
 namespace :deploy do
+  task :migrate do ; end
   task :start do ; end
   task :stop do ; end
   task :restart, :roles => :app, :except => { :no_release => true } do
