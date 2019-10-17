@@ -83,7 +83,7 @@ GEM
     factory_girl_rails (4.0.0)
       factory_girl (~> 4.0.0)
       railties (>= 3.0.0)
-    ffi (1.1.5)
+    ffi (1.11.1)
     gherkin (2.11.2)
       json (>= 1.4.6)
     highline (1.6.13)
