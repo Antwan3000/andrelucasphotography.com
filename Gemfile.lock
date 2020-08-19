@@ -119,7 +119,7 @@ GEM
       mongoid (>= 3.0.0.rc)
       rake
       rspec (>= 2.9)
-    moped (1.2.0)
+    moped (1.5.3)
     multi_json (1.3.6)
     net-scp (1.0.4)
       net-ssh (>= 1.99.1)
